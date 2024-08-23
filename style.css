@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+#quadrado {
+    width: 350px;
+    background-color: black;
+    border: 4px double white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#fixa {
+    width: 100%;
+    height: 250px;
+    border: 4px double white;
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: black;
+}
+
+#fixa>#logo {
+    width: none;
+    height: 150px;
+}
+
+#dinamica {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+button {
+    width: 100%;
+    background-color: #000000;
+    border: 4px double;
+    color: white;
+    padding: 12px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#caixatexto {
+    border: 4px double white;
+    color: white;
+    display: none;
+    padding: 0 12px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    height: 60px;
+    overflow: hidden;
+}
+
+#pau {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+#inputName {
+    width: 70%;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    display: none;
+}
+
+#submitName {
+    width: 25%;
+    background-color: #000000;
+    border: 4px double;
+    color: white;
+    padding: 12px 0;
+    font-size: 14px;
+    cursor: pointer;
+    display: none;
+}
+
+#submitName:hover {
+    background-color: white;
+    color: black;
+}
